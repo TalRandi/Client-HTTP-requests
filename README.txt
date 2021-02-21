@@ -1,15 +1,11 @@
 
-Login name: talrn
-
-Name & ID: Tal Randi - 315633503
-
 Exercise Name: EX2 – Client HTTP requests
 
 Files:
 
 Client.c 	   :	 This c file implements the client-server connection, it translate an HTTP request 
 			 from the user to actual HTTP request. sent the request to the server, and show server's response.
-README 		   :	 This file
+
 
 Remarks: 
 
@@ -28,7 +24,7 @@ By -p option - user can send a POST request and sent one body message.
 By -r option - user can send to the server n values and arguments.
 In any case of user insert wrong request format - the program show to user the correct format.
 
-there are two private function:
+There are two private function:
 
 UsageError = gets the all buffers, free their memory. this function also print an error message by the relevant case.
 digitsNumber = returns the number of digits of an integer.
